@@ -16,4 +16,6 @@ authorization code is exchanged for an access Token. This is done in the /auth/c
 
 used to fetch important information needed to make authorized API requests. Afterwards, the app makes the API calls to get the metric
 
-loads it up into a sql database, then upon being redirected to the dashboard, it is pulled and used on the webpage.
+loads it up into a sql database, then upon being redirected to the dashboard, it is pulled and used on the webpage. In whole, I used
+
+NodeJS, React, PostgreSQL, RedisStore, and ngrok as tools to complete this project.
